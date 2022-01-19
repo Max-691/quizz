@@ -1,9 +1,39 @@
 // Creer une fonction qui prends en argument deux nombres et qui retourne la division du premier par le deuxieme
 
+    /*function divide(a, b){
+        return a/b;
+    }
+    divide(3, 4);*/
+
+
 // Creer une fonction
 // Afficher le contenu d'un tableau de nombre dans une chaine de caractere avec une limite de 5 nombres affichés (dans la console)
 // Exemple [2,4,5] => affiche "2 4 5"
 // Exemple [2,4,5,7,9,34,7] => affiche "2 4 5 7 9"
+
+     /*   function tb(t){
+           console.log(t.join(" "));
+           let resultat = "";
+           for (let i = 0; i < t.length; i++) {
+                console.log(t[i]);
+                if(i < 5){
+                    resultat += t[i] + " ";
+                }
+            }
+            console.log(resultat.trim());
+        }
+        tb([2,4,5,7,9,34,7]); */
+
+       function tb(t){
+
+            for (let i = 0; i < t.length; i++) {
+                let t = [1, 4, 6, 8, 6, 2, 3];
+                console.log(t)
+            }
+        }
+
+       
+        
 
 // Creer une fonction
 // Afficher le contenu d'un tableau de nombre dans une chaine de caractere avec une limite de 15 caracteres affichés 
@@ -11,6 +41,12 @@
 // Exemple [2,4,5] => affiche "2 4 5"
 // Exemple [2,4,5,7,9,34,7,89] => affiche "2 4 5 7 9 34 7 "
 // BONUS SUPPRIMER LE DERNIER CARACTERE SI C EST UN ESPACE
+
+        function tb2(t2) {
+            console.log(t2.join(" "));
+        }
+
+        tb2([1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2]);
 
 // Creer une fonction qui retourne la moyenne d'un tableau de nombre passé en argument
 // Exemple f([2,3,4]) retournera 3
