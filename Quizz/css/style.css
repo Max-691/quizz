@@ -28,11 +28,6 @@ article{
     width: 40%;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 ul{
     list-style: none;
@@ -80,4 +75,14 @@ footer{
 }
 footer img{
     width: 6rem;
+}
+
+.true{
+    background: #90ee8f;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

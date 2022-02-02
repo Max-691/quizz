@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-<script src="app.js"></script>
     <header>
         <h1>Quizz Culture générale !</h1>
     </header>
 
     <main>
-        <form>
-            <article>
+        <section id="form">
+            <article class="article">
                     <h2>Combien de caractéristiques possède un vecteur ?</h2>
                     <ul>
-                        <li> <label for="q1a">2</label>
+                        <li>
+                            <label for="q1a">2</label>
                             <input type="radio" name="q1" id="q1a">
                         </li>
                         <li>
-                             <label for="q1b">3</label>
+                             
+                            <label for="q1b">3</label>
                             <input type="radio" name="q1" id="q1b">
                         </li>
                         <li>
-                             <label for="q1c">4</label>
-                            <input type="radio" name="q1" id="q1c">
+                            <label for="q1c">4</label>
+                            <input class="goodAnswer" type="radio" name="q1" id="q1c"> <!--goodAnswer-->
                         </li>
                     </ul>
             </article>
                 
-            <article>
+            <article class="article">
                     <h2>Quel satellite tourne autour de la Terre ?</h2>
                     <ul>
                         <li>
                             <label for="q2a">La Lune</label>
-                            <input type="radio" name="q2" id="q2a">
+                            <input class="goodAnswer" type="radio" name="q2" id="q2a"> <!--goodAnswer-->
                         </li>
                         <li>
                             <label for="q2b">Le Soleil</label>
@@ -50,25 +51,25 @@
                     </ul>     
             </article>
                 
-            <article>
+            <article class="article">
                     <h2>Lorsque Rocky Byun trouve le centre de gravité d'un objet, que doit-il faire ?</h2>
                     <ul>
                         <li>
-                            <label for="q3a">Le garder en contact</label>
+                            <label for="q3a">Le goodAnswerrder en contact</label>
                             <input type="radio" name="q3" id="q3a">
                         </li>
                         <li>
                             <label for="q3b">Le lâcher</label>
-                            <input type="radio" name="q3" id="q3b">
+                            <input class="goodAnswer" type="radio" name="q3" id="q3b"> <!--goodAnswer-->
                         </li>
                         <li>
-                            <label for="q3c">Le pousser</label>
+                            <label for="q3c">Le pousser légèrement</label>
                             <input type="radio" name="q3" id="q3c">
                         </li>
                     </ul>  
             </article>
                
-            <article>
+            <article class="article">
                     <h2>La masse d'une personne sur la Lune est de 60kg. Combien serait-elle sur la Terre ?
                     </h2>
                     <ul>
@@ -82,12 +83,12 @@
                         </li>
                         <li>
                             <label for="q4c">Elle ne changera pas</label>
-                            <input type="radio" name="q4" id="q4c">
+                            <input class="goodAnswer" type="radio" name="q4" id="q4c"> <!--goodAnswer-->
                         </li>
                     </ul>             
             </article>
 
-            <article>
+            <article class="article">
                     <h2>Avec quelle unité mesure-t-on la gravité ?</h2>
                     <ul>
                         <li>
@@ -100,12 +101,12 @@
                         </li>
                         <li>
                             <label for="q5c">Le newton</label>
-                            <input type="radio" name="q5" id="q5c">
+                            <input class="goodAnswer" type="radio" name="q5" id="q5c"> <!--goodAnswer-->
                         </li>
                     </ul> 
             </article>
               
-            <article>
+            <article class="article">
                     <h2>Pour définir une trajectoire formant une vague on l'appelle :</h2>
                     <ul>
                         <li>
@@ -117,18 +118,18 @@
                             <input type="radio" name="q6" id="q6b">
                         </li>
                         <li>
-                            <label for="q6c">Trajectoire Curviligne</label>
-                            <input type="radio" name="q6" id="q6c">
+                            <label for="q6c">Trajectoire quelconque</label>
+                            <input class="goodAnswer" type="radio" name="q6" id="q6c"> <!--goodAnswer-->
                         </li>
                     </ul>  
             </article>
                
-            <article>
+            <article class="article">
                     <h2>Quelle est la formule pour calculer la vitesse ?</h2>
                     <ul>
                         <li>
                             <label for="q7a">V = D/T</label>
-                            <input type="radio" name="q7" id="q7a">
+                            <input class="goodAnswer" type="radio" name="q7" id="q7a"> <!--goodAnswer-->
                         </li>
                         <li>
                             <label for="q7b">D = V/T</label>
@@ -141,8 +142,8 @@
                     </ul>        
             </article>
               
-            <article>
-                    <h2>Pour que 2 vecteurs soit égaux il faut :</h2>
+            <article class="article">
+                    <h2>Pour que 2 vecteurs soit égoodAnswerux il faut :</h2>
                     <ul>
                         <li>
                             <label for="q8a">La même direction</label>
@@ -162,17 +163,17 @@
                         </li>
                         <li>
                             <label for="q8e">Les 3 premières</label>
-                            <input type="radio" name="q8" id="q8e">
+                            <input class="goodAnswer" type="radio" name="q8" id="q8e"> <!--goodAnswer-->
                         </li>
                     </ul>         
             </article>
                
-            <article>
+            <article class="article">
                     <h2>Pour calculer le poids d'un objet on utilise :</h2>
                     <ul>
                         <li>
                             <label for="q9a">P = M/G</label>
-                            <input type="radio" name="q9" id="q9a">
+                            <input class="goodAnswer" type="radio" name="q9" id="q9a"> <!--goodAnswer-->
                         </li>
                         <li>
                             <label for="q9b">P = M*G</label>
@@ -185,7 +186,7 @@
                     </ul>         
             </article>
                
-            <article>
+            <article class="article">
                     <h2>La masse d'un objet change selon :</h2>
                     <ul>
                         <li>
@@ -193,23 +194,23 @@
                             <input type="radio" name="q10" id="q10a">
                         </li>
                     
-                    <li>
-                        <label for="q10b">La gravité</label>
-                        <input type="radio" name="q10" id="q10b">
-                    </li>
-                    <li>
-                        <label for="q10c">Ne change pas</label>
-                        <input type="radio" name="q10" id="q10c">
-                    </li> 
+                        <li>
+                            <label for="q10b">La gravité</label>
+                            <input type="radio" name="q10" id="q10b">
+                        </li>
+                        <li>
+                            <label for="q10c">Ne change pas</label>
+                            <input class="goodAnswer" type="radio" name="q10" id="q10c">   <!--goodAnswer-->
+                        </li> 
                 </ul>    
             </article>
             
-            <article>
+            <article class="article">
                     <h2>Pour qu'un objet soumis à 2 forces soit en équilibre il faut :</h2>
                     <ul>
                         <li>
                             <label for="q11a">Qu'elles aient la même direction, la même valeur et à sens contraire</label>
-                            <input type="radio" name="q11" id="q11a">
+                            <input class="goodAnswer" type="radio" name="q11" id="q11a">   <!--goodAnswer-->
                         </li>
                         <li>
                             <label for="q11b">Qu'elles aient la même direction, la même valeur dans le même sens</label>
@@ -222,7 +223,7 @@
                     </ul>             
             </article>
 
-            <article>
+            <article class="article">
                     <h2>Enfin, un Lukahoot est :</h2>
                     <ul>
                         <li>
@@ -235,27 +236,26 @@
                         </li>
                         <li>
                             <label for="q12c">inférieur à une Sandriss</label>
-                            <input type="radio" name="q12" id="q12c">
+                            <input class="goodAnswer" type="radio" name="q12" id="q12c">   <!--goodAnswer-->
                         </li>
                     </ul>           
             </article>
               
-                <button type="submit">Validez vos choix !</button>
+                <button id="button">Validez vos choix !</button>
                 <article>
                     <p>Cliquez sur valider pour voir les résultats.</p>
                     <!--👀 Il reste quelques erreurs 😭-->
                     <!--Retentez une autre réponse dans les cases rouges, puis re-validez ! -->
                 </article>
-        </form>
            
-       
+            </section>x 
     </main>
-
     <footer>
-        <a href="https://www.edenschool.fr"><img src="escode.png" alt="eden logo"></a>
+        <a href="https://www.edenschool.fr"><img src="img/escode.png" alt="eden logo"></a>
         <br>
         <small>copyright eden school</small>
     </footer>
    
+<script src="js/app.js"></script>
 </body>
 </html>
