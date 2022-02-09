@@ -26,6 +26,7 @@ article{
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     width: 40%;
+    border-radius: 16px;
 }
 
 
@@ -85,4 +86,8 @@ footer img{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#article_score{
+    text-align: center;
 }
